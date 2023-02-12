@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href='./images/favicon.png' type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css"
+        integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link
+        href="https://fonts.googleapis.com/css2?family=Sofia+Sans+Extra+Condensed:wght@1;100;200;400;700;1000&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+
+    <title>Portfolio</title>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <ul class="nav-bar">
+                <li class='logo'><a href='./index.html'><img src='./images/logo.png' alt="LOGO" /></a></li>
+                <input type="checkbox" id="check">
+                <span class="menu">
+                    <li class="link"><a href="./index.html">HOME</a></li>
+                    <li class="link"><a href="./aboutme.html">ABOUT ME</a></li>
+                    <li class="link"><a href="./contact.html">CONTACT ME</a></li>
+                    <li class="link"><a href="./gallery.html">GALLERY</a></li>
+                    <label for="check" class="close-menu"><i class="fas fa-times"></i></label>
+                </span>
+                <label for="check" class="open-menu"><i class="fas fa-bars"></i></label>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section class="container">
+            <!-- INTRO -->
+            <h1 class="headings">ABOUT ME</h1>
+            <hr>
+            <div class="intro-content">
+                <h2>INTRO</h2>
+                <p>Hello, I'm <strong>Bharath Peethala</strong>, I am currently pursuing B.Tech at SRKR
+                    Engineering College in the stream of Information Technology. I had
+                    invested the last 3 years in improving my software skills. My
+                    technical skills include programming in C/C++, Python, Java,
+                    Javascript, and SQL, I am also familiar with MERN stack web
+                    development which includes ReactJs and Node.js, Express,
+                    MongoDB, and Flask. I am a Member of CSI and organized several
+                    webinars and workshops about emerging technologies in IT and also
+                    a Member of the VOES club which was established by the students
+                    themselves to improve their public speaking skills. I am a self-
+                    motivated, team player and a focused person.I love Cricket and
+                    Cinema</p>
+            </div>
+            <hr>
+            <!-- EDUCATION -->
+            <h2 class="side-headings">EDUCATION</h2>
+            <div class="table-container">
+                <table class="Qualification-table">
+                    <thead class="Qualification-table-head">
+                        <tr>
+                            <th>COURSE</th>
+                            <th>Institution</th>
+                            <th>CGPA</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+
+                        <tr>
+                            <td>Bachelor's of Technology</td>
+                            <td>SRKR Engineering College</td>
+                            <td>8.08</td>
+                        </tr>
+                        <tr>
+                            <td>Intermediate</td>
+                            <td>Narayana Junior College</td>
+                            <td>9.69</td>
+                        </tr>
+                        <tr>
+                            <td>SSC</td>
+                            <td>Narayana High School</td>
+                            <td>9.8</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <hr>
+            <!-- SKILLS -->
+            <h2 class="side-headings">SKILLS</h2>
+            <div class="skills-container">
+                <div class="skill-container">
+                    <h3 class="skill-headings">PROGRAMMING</h3>
+                    <ul>
+                        <li>C/C++</li>
+                        <li>Java</li>
+                        <li>Python</li>
+                        <li>JavaScript</li>
+                    </ul>
+                </div>
+                <div class="skill-container">
+                    <h3 class="skill-headings">WEB</h3>
+                    <ul>
+                        <li>React JS</li>
+                        <li>Node.js and Express.js</li>
+                        <li>Flask</li>
+                    </ul>
+                </div>
+                <div class="skill-container">
+                    <h3 class="skill-headings">DATABASES</h3>
+                    <ul>
+                        <li>MySQL</li>
+                        <li>MongoDB</li>
+                    </ul>
+                </div>
+            </div>
+            <hr>
+            <!-- PROJECTS -->
+            <h2 class="side-headings">PROJECTS</h2>
+            <div class="projects-container">
+                <div class="project-container">
+                    <h3>CRYPTO TRACKER</h3>
+                </div>
+                <div class="project-container">
+                    <h3>HEART TEST</h3>
+                </div>
+                <div class="project-container">
+                    <h3>JOBSEEKER</h3>
+                </div>
+            </div>
+        </section>
+    </main>
+</body>
+
+</html>
